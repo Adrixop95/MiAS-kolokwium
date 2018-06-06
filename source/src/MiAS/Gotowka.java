@@ -8,6 +8,6 @@ public class Gotowka extends Platnosc {
 
     public final void zaplac(Zamowienie zamowienie) {
     	super.zaplac(zamowienie);
-	System.out.println("Zaplacono gotowka: " + this.kwotaPlatnosci);
+	System.out.println("Zaplacono gotowka: " + this.kwotaPlatnosci + "\n");
     }
 }

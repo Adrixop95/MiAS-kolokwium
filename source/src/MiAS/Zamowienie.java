@@ -42,7 +42,7 @@ public class Zamowienie {
     public final boolean oplacZamownienie(Gotowka g) {
 
         if (this.statusZamowienia) {
-            System.out.println("Zamowienie oplacone");
+            System.out.println("Zamowienie oplacone \n");
             return false;
 	}
 
@@ -57,7 +57,7 @@ public class Zamowienie {
     public final boolean oplacZamownienie(Kredyt k) {
     
         if (this.statusZamowienia) {
-            System.out.println("Zamowienie oplacone");
+            System.out.println("Zamowienie oplacone \n");
             return false;
 	}
 
@@ -72,7 +72,7 @@ public class Zamowienie {
     public final boolean oplacZamownienie(Przelew p) {
 		
         if (this.statusZamowienia) {
-            System.out.println("Zamowienie oplacone");
+            System.out.println("Zamowienie oplacone \n");
             return false;
 	}
 
@@ -88,7 +88,7 @@ public class Zamowienie {
         
         INotatka inotatka;
         Drukarka d = new Drukarka();
-	Email e = new Email("blabla@gmail.com");
+	Email e = new Email("test@test.com");
 
 	if (potwierdzenieElektroniczne) {
             inotatka = (INotatka) e;

@@ -15,7 +15,7 @@ public class Kredyt extends Platnosc {
 
     public final void zaplac(Zamowienie zamowienie) {
 	super.zaplac(zamowienie);
-	System.out.println("Zaplacono rate " + this.liczbaRat + " na kwote " + this.kwotaPlatnosci);
+	System.out.println("Zaplacono rate " + this.liczbaRat + " na kwote " + this.kwotaPlatnosci + "\n");
 	this.liczbaRat--;
     }
 }

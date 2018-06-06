@@ -13,7 +13,7 @@ public class Przelew extends Platnosc {
 
     public final void zaplac(Zamowienie zamowienie) {
         System.out.println("Doszedl przelew " + this.Tytulprzelewu + " na kwote "
-                + this.kwotaPlatnosci + " z " + this.Kontobankowe);
+                + this.kwotaPlatnosci + " z " + this.Kontobankowe + "\n");
     }
     
 }

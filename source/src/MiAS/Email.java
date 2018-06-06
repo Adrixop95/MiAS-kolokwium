@@ -9,10 +9,10 @@ public class Email implements INotatka {
     }
 
     public final void Drukuj() {
-    	System.out.println("Blad wyszukiwania drukarki w sieci");
+    	System.out.println("Blad wyszukiwania drukarki w sieci \n");
     }
 
     public final void Wyslij() {
-	System.out.println("Wiadomosc wyslana do: " + this.adres_email);
+	System.out.println("Wiadomosc wyslana do: " + this.adres_email + "\n");
     }
 }
